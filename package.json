@@ -1,0 +1,24 @@
+{
+  "name": "roster-scraping",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "start:debug": "nodemon --inspect-brk=9999 src/index.js"
+  },
+  "dependencies": {
+    "axios": "0.20.0",
+    "cheerio": "1.0.0-rc.3",
+    "express": "4.17.1",
+    "lodash": "4.17.20"
+  },
+  "keywords": [],
+  "author": "Marcus T. Hellams",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
