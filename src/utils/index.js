@@ -1,5 +1,7 @@
 module.exports = {
-    fetchRoster: require('./fetchRoster'),
-    parseRoster: require('./parseRoster'),
-    jsonToCSV: require('./jsonToCSV'),
-}
+  fetchRoster: require('./fetchRoster'),
+  jsonToCSV: require('./jsonToCSV'),
+  outputRosters: require('./outputRosters'),
+  parseRoster: require('./parseRoster'),
+  saveToFile: require('./saveToFile'),
+};

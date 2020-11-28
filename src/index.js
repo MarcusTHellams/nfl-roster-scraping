@@ -1,4 +1,3 @@
-const {fetchRoster} = require('./utils');
+const { outputRosters } = require('./utils');
 
-fetchRoster('https://www.lineups.com/nfl/roster/arizona-cardinals');
-
+outputRosters();
