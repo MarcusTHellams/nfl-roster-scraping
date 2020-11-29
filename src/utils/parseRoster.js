@@ -9,30 +9,30 @@ const parseRoster = $ => {
         switch (i) {
           case 0:
             //position
-            player['position'] = `${$(elem).text().trim()}`;
+            player['position'] = $(elem).text().trim();
             break;
           case 1:
             //name
-            player['name'] = `${$(elem)
-              .find('.player-name-col-lg')
-              .text()
-              .trim()}`;
+            player['name'] = $(elem)
+            .find('.player-name-col-lg')
+            .text()
+            .trim();
             break;
           case 9:
             // experience
-            player['experience'] = `${$(elem).text().trim()}`;
+            player['experience'] = $(elem).text().trim();
             break;
           case 10:
             //year drafted
-            player['yearDrafted'] = `${$(elem).text().trim()}`;
+            player['yearDrafted'] = $(elem).text().trim();
             break;
           case 11:
             //draft round
-            player['roundDrafted'] = `${$(elem).text().trim()}`;
+            player['roundDrafted'] = $(elem).text().trim();
             break;
           case 12:
             //draft pick
-            player['overallDraftPick'] = `${$(elem).text().trim()}`;
+            player['overallDraftPick'] = $(elem).text().trim();
             break;
           default:
             break;
